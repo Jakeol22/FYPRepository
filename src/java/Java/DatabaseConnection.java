@@ -18,7 +18,7 @@ import java.util.logging.Logger;
 
 public class DatabaseConnection {
     
-    public Connection getConnection(){
+    public Connection getConnection(){ //new class
         
         try {
             //This was taken from Bill Emerson notes(2023)--JDBC_Part1_IS3312.ppt
